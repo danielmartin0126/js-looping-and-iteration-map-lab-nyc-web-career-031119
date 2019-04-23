@@ -9,8 +9,8 @@ return newArr;
 
 function nameToAttributes(arr) {
   return arr.map(function(driver) {
-  {firstName: driver.split(" ")[0]
-, lastName:driver.split(" ")[1]}
+  return {firstName: driver.split(" ")[0]
+, lastName:driver.split(" ")[1]};
 });
 }
 
