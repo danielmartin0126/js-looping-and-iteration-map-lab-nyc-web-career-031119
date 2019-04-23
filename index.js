@@ -6,8 +6,9 @@ function lowerCaseDrivers(arr) {
 return newArr;
 }
 
-function nameToAttributes() {
-  const names = newEngineers.map(function(eng) {
+function nameToAttributes(arr) {
+  const names = []
+  arr.map(function(driver) {
     return Object.assign({}, eng, { equipment: 'Laptop' });
 });
   
