@@ -7,5 +7,8 @@ return newArr;
 }
 
 function nameToAttributes() {
+  const equippedEngineers = newEngineers.map(function(eng) {
+    return Object.assign({}, eng, { equipment: 'Laptop' });
+});
   
 }
