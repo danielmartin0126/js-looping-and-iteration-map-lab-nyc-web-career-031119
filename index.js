@@ -8,7 +8,6 @@ return newArr;
 
 
 function nameToAttributes(arr) {
-  const names = []
   return arr.map(function(driver) {
     names.push({firstName: driver.split(" ")[0]
 , lastName:driver.split(" ")[1]})
