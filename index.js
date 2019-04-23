@@ -11,7 +11,7 @@ function nameToAttributes(arr) {
   arr.map(function(driver) {
     driver.split(" ")
     return {firstName: driver.split(" ")[0]
-, lastName:driver.split(" ")[1]});
+, lastName:driver.split(" ")[1]}
 });
   return names
 }
