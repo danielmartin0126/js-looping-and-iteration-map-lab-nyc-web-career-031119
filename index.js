@@ -9,7 +9,7 @@ return newArr;
 function nameToAttributes(arr) {
   const names = []
   arr.map(function(driver) {
-    return Object.assign({}, eng, { equipment: 'Laptop' });
+    names << Object.assign({}, driver, { firstName:  });
 });
   
 }
