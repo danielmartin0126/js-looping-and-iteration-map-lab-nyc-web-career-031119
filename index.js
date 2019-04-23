@@ -9,7 +9,7 @@ return newArr;
 function nameToAttributes(arr) {
   const names = []
   arr.map(function(driver) {
-    names << Object.assign({}, driver, { firstName:  });
+    names << Object.assign({}, driver, { firstName:"", lastName: ""  });
 });
   
 }
