@@ -9,12 +9,15 @@ return newArr;
 
 function nameToAttributes(arr) {
   const names = []
-  arr.map(function(driver) {
-	console.log({firstName: driver.split(" ")[0]
-, lastName:driver.split(" ")[1]})
+  return arr.map(function(driver) {
     names.push({firstName: driver.split(" ")[0]
 , lastName:driver.split(" ")[1]})
-console.log(names)
 });
 return names
+}
+
+function nameToAttributes(drivers){
+  return drivers.map(function(driver){
+    return {firstName: driver.split(' ')[0], lastName: driver.split(' ')[1]};
+  })
 }
