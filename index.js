@@ -16,6 +16,6 @@ function nameToAttributes(arr) {
 
 function attributesToPhrase(arr) {
   return arr.map(function(driver) {
-    
+    return `${driver
   })
 }
