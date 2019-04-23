@@ -10,8 +10,8 @@ function nameToAttributes(arr) {
   const names = []
   arr.map(function(driver) {
     driver.split(" ")
-    names << Object.assign({}, driver, { firstName:`${driver.split(" ")[0]}`
-, lastName: `${driver.split(" ")[1]}`});
+    return {firstName: driver.split(" ")[0]
+, lastName:driver.split(" ")[1]});
 });
   return names
 }
