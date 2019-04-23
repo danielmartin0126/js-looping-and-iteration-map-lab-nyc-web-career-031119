@@ -2,6 +2,5 @@
 function lowerCaseDrivers(arr) {
   const newArr = arr.map(function(driver) {
     driver.toLowerCase()
-   
 });
 }
