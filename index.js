@@ -14,3 +14,6 @@ function nameToAttributes(arr) {
 });
 }
 
+function attributesToPhrase() {
+  
+}
