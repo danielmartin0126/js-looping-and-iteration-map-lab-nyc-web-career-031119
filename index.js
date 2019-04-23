@@ -6,11 +6,15 @@ function lowerCaseDrivers(arr) {
 return newArr;
 }
 
+
 function nameToAttributes(arr) {
   const names = []
   arr.map(function(driver) {
-    driver.split(" ")
-    return {firstName: driver.split(" ")[0]
-, lastName:driver.split(" ")[1]}
+	console.log({firstName: driver.split(" ")[0]
+, lastName:driver.split(" ")[1]})
+    names.push({firstName: driver.split(" ")[0]
+, lastName:driver.split(" ")[1]})
+console.log(names)
 });
+return names
 }
